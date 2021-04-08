@@ -1,0 +1,28 @@
+<script>
+  alert("Comparativo de Combustivel");
+  alert("=================================================");
+
+  var kmLEta = parseInt(prompt("Qual é o KM/l do seu veiculo do seu carro em ETANOL: "));
+
+  var kmLGas = parseInt(prompt("Qual é o KM/l do seu veiculo do seu carro em GASOLINA: "));
+
+  var eta = parseInt(prompt("Qual é o valor do ETANOL :R$ "));
+  var gas = parseInt(prompt("Qual é o valor do GASOLINA :R$ "));
+
+  desempenho = (kmLEta / kmLGas)*100;
+  repreco = (eta/gas);
+
+  alert("=================================================");
+  alert("Desempenho " + desempenho + "%");
+  alert("Relação do preço " + repreco + "%");
+
+  alert("=================================================");
+
+  if (repreco <= "70" ){
+    alert("Na média, uma relação de 70% ou menos do preço do etanol em relação ao preço da gasolina, favorece o uso do ETANOL. Se for 71% ou mais, use gasolina.")
+  }else{
+    alert("Na média, uma relação de 70% ou menos do preço do etanol em relação ao preço da gasolina, favorece o uso do GASOLINA. Se for 71% ou mais, use gasolina.")
+  }
+
+
+</script>
