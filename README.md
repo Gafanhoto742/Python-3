@@ -1,2 +1,2 @@
 # Python 3
- Curso de python do Gustavo guanabara
+Python (3) - Course
